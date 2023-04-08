@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "target": "ES5",
+    "module": "ES6",
+    "lib": ["es6", "ES2015", "dom"],
+    "types": ["node", "inquirer"],
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["src/**/*"]
+}
